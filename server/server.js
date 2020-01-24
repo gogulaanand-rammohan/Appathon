@@ -2,7 +2,7 @@
 
 const requestNPM = require('request');
 const SUCCESS_CODES = [200,201,202];
-const bearer_token = `Bearer DQVJ2RzNSRXlKQmNuRnYwaTMwT1lWM0pxZAVlPOGhzV0EwamVQNGxSRFVEOUxsMU5Od19sLUNNVVdOOXpQLWQwT0RvUDNleExnUkswaDQxY3N5WGRCMGhMTnNNNk9UbHZAZAc0J0cVBQaUE1QVl5VFZA4eWZAFYVg2MmQ1ckZAIVmFScjF2NUdjR1NtUjNYRnFQLTU4eGE0bWFHT0VBcTNCNXFHeVNfdXZAKU2hYLVBZAczEyVHdyMXE3bEJocmdnQjdLbnRyOTRjUFFVcVk0UWNlUXNUMwZDZD`;
+const bearer_token = `{enter the bearer token}`;
 var userid=0
 function cleanOptions(options) {
     return JSON.stringify(options, function (key, value) {
